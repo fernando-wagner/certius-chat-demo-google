@@ -1,0 +1,4 @@
+<div id="inputArea">
+    <textarea #box (keyup.enter)="onEnter(box)" [attr.disabled]="getInputStatus() ? true : null"></textarea>
+    <button (click)="onClickMe(box)" [attr.disabled]="getInputStatus() ? true : null">Enviar</button>
+</div>

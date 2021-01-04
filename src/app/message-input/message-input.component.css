@@ -1,0 +1,52 @@
+#inputArea {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#inputArea textarea {
+    background: #fbfbfb;
+    width: 75%;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    resize: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#inputArea textarea:focus {
+    background: #fff;
+}
+
+#inputArea textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+#inputArea textarea::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0,0,0,0.1);
+}
+
+#inputArea button {
+    background: #5a7855;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin: 0 25px;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 #668760;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 20px;
+
+    transition: background .2s ease;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -o-transition: background .2s ease;
+}
+
+#inputArea button:hover {
+    background: #668760;
+}

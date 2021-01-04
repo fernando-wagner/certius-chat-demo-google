@@ -1,0 +1,3 @@
+<div *ngIf="messageWindowService.messages.length" id="messageContainer">
+	<div #allTheseThings *ngFor="let message of messageWindowService.messages" class="{{message.getType()}}" (click)="onClick(message)"> {{message.getText()}} {{scroll()}}  </div>
+</div>
